@@ -41,3 +41,36 @@ li a{
     font-size: 20px;
     color: rgb(31, 198, 40);
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /*
+    body{
+        background-image: none;
+        background-color: aqua;
+        
+    }
+    */
+    header{
+        display: flex;
+    }
+
+    .menu{
+        width: 100%;
+        
+    }
+
+    ul{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    li{
+        margin-top: 0;
+    }
+}
+
