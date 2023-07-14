@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+/* mobile first */
+
+/* estilos generales*/
+
+body{
+    background-image: url('../img/leaves.webp');
+}
+
+
+/* Header start */
+
+header{
+    border: 3px solid black;
+}
+
+.contenedorLogo{
+    border: 3px solid rgb(238, 6, 6);
+}
+
+.menu{
+    border: 3px solid rgb(231, 231, 11);
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+li{
+    border: 3px solid rgb(100, 24, 193);
+    text-align: center;
+    margin-top: 15px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(31, 198, 40);
+}
