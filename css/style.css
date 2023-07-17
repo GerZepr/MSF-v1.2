@@ -7,15 +7,13 @@
 /* estilos generales*/
 
 body{
-    background-image: url('../img/leaves.webp');
+    background-color:rgb(6, 150, 177);;
 }
 
 
 /* Header start */
 
-header{
-    border: 3px solid black;
-}
+
 
 .contenedorLogo{
     border: 3px solid rgb(238, 6, 6);
@@ -39,7 +37,7 @@ li{
 li a{
     text-decoration: none;
     font-size: 20px;
-    color: rgb(31, 198, 40);
+    color: rgb(255, 255, 255);
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
